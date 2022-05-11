@@ -1,0 +1,79 @@
+*{
+    box-sizing: border-box;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: rgba(255,255,0,0.4);
+    
+    padding-left: 25px;
+    font-size: 1.1rem;
+}
+@media only screen and (max-width:300px){
+    #logo{
+        height: vh;
+        width: 125px;
+        position: relative;
+        left: 10px;
+    }
+};
+#logo{
+	height: 7vh;
+	width: 8vw;
+	padding: 0px;
+}
+/* banner */
+#banner{
+    background-color: #EBF8FA;
+    padding-bottom: 40px;
+}
+
+#bannertext h1{
+    color: black;
+    font-size: 40px;
+    margin-top: 60px;
+}
+#bannertext p{
+    color: black;
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+#bannerbtn1{
+    background-color: #00bec9;
+    border: 2px solid #00bec9;
+    color: white;
+}
+#bannerbtn2{
+    color: white;
+    border: 2px solid white;
+    background-color: orange;
+    margin-left: 15px;
+}
+@media only screen and (max-width : 1300px) {
+    #bannertext h1{
+        font-size: 50px;
+    }
+    #banner{
+        padding-bottom: 70px;
+    }
+}
+@media only screen and (max-width : 900px) {
+    #bannertext h1{
+        font-size: 40px;
+    }
+    #banner img{
+        padding-top: 70px;
+    }
+}
+@media only screen and (max-width : 400px) {
+    #bannertext h1{
+        font-size: 40px;
+    }
+    #banner img{
+        padding-top: 70px;
+    }
+}
+
+#card:hover {
+          transform: scale(1.1);
+          
+}
